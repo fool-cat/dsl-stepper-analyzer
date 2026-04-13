@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DSL步进电机曲线分析
+Comment=拖入 .dsl 文件或直接运行后选择文件，生成速度/加速度/距离曲线
+Exec=/usr/bin/env bash /mnt/hgfs/fc_embed/device/analyse/dsl_stepper_speed_gui.sh %F
+Terminal=false
+StartupNotify=true
+Categories=Utility;Development;
+MimeType=application/octet-stream;
